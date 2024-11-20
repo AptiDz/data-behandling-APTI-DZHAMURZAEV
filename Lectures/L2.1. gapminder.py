@@ -7,5 +7,5 @@ fig = px.scatter(gapminder, x="gdpPercap", y="lifeExp",
            range_x=[100, 100000], range_y=[25,90])
 fig.show()
 
-#fig.write_html('gapminder.html', auto_open=True)
+fig.write_html('gapminder.html', auto_open=True)
 
